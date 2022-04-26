@@ -8,16 +8,91 @@
 </head>
 <body>
     <H1> <CENTER> Primera Página </CENTER> </H1>
-<hr>
+<hr> 
 Esta es mi primera pagina, aunque todavía es muy sencilla. Como el lenguaje HTML
 no es difícil, pronto estaré en condiciones de hacer cosas más interesantes.
 
 <p>Aquí va un segundo párrafo, ¿ qué les parece ?</p>
     
     
-Si queremos separar los párrafos, o cualquier otra  cosa, pero sin dejar una línea en blanco así <br> 
-Usamos una etiqueta pensada para ello: (break, o romper). No tiene etiqueta de cierre.
+Si queremos separar los párrafos, o cualquier otra  cosa, pero sin dejar una línea en blanco como a continuacion: <br> 
+Usamos una etiqueta pensada para ello: br (break, o romper). No tiene etiqueta de cierre.
 
+Al escribir el texto, si ponemos más de un espacio en blanco entre dos palabras observamos que el 
+navegador sólo reconoce uno de ellos. 
+Si queremos forzarle a que lo haga, debemos poner el código &nbsp;(non-breaking space)
+
+<br>
+<br>
+
+<B>B Para poner algo en negrita (bold).</B> 
+<br>
+<I>I Para poner algo en cursiva (italic)</I>
+
+<br>
+<br>
+
+Otra etiqueta interesante es <b>PRE</b>. 
+
+El texto que se encuentre entre ella estará preformateado, es decir que aparecerá 
+como haya sido escrito y con una fuente de espaciado fijo (tipo Courier). 
+Se respetarán los espacios en blanco y retornos del carro, tal como estaban 
+en nuestro documento HTML. Es muy apropiada para confeccionar tablas poco elaboradas 
+y otros documentos similares.
+<PRE>"Texto de ejemplo de la etiqueta PRE",a comtinuacion insertare un salto de linea:
+He dado un salto de linea.</PRE>
+
+Con la etiqueta <b>TT</b> conseguimos que el texto tenga un tamaño menor y la apariencia de los caracteres  de una
+máquina de escribir (typewriter). La diferencia con la anterior es que no preformatea el texto, sino que únicamente cambia su apariencia.
+<br>
+<tt>"Texto de ejemplo con la etiqueta TT",a comtinuacion insertare un salto de linea:
+He dado un salto de linea.</tt>
+<br>
+<br>
+La etiqueta <b>BLOCKQUOTE</b> se utiliza para destacar una cita textual dentro del texto general. 
+Este párrafo está escrito entre ambas etiquetas de inicio y cierre. Deja márgenes a ambos lados, 
+por eso se usa para poner sangrías.
+
+<blockquote>"Texto de ejemplo con la etiqueta BLOCKQUOTE"</blockquote>
+
+En las  fórmulas matemáticas  puede  interesar poder escribir  índices y subíndices,  que se  
+consiguen  con  las etiquetas <b>SUP</b> y <b>SUB</b> respectivamente.
+<br>
+Texto de ejemplo con la etiqueta SUP: 10<sup>2</sup>
+<br>
+Texto de ejemplo con la etiqueta SUB: 10<sub>2</sub>
+<br>
+<br>
+ <b>Ejemplo de lista Desordenada:</b>
+ <UL>
+    <LI> Mamíferos
+    <LI> Peces
+        <UL>
+            <LI> Sardina
+            <LI> Bacalao
+        </UL>
+    <LI> Aves
+</UL>
+
+<br>
+<br>
+ <b>Ejemplo de lista Ordenada:</b>
+ <OL>
+    <LI> Primer Elemento
+    <LI> Segundo Elemento
+    <LI> Tercer Elemento
+    <LI> etc.
+</OL>
+
+<br>
+<br>
+ <b>Ejemplo de lista de definiciones:</b>
+ <DL>
+    <DT> Una cosa a definir
+        <DD> La definición de esta cosa
+    <DT> Otra cosa a definir
+        <DD> La definición de esta otra cosa
+</DL>
 
 </body>
 </html>
